@@ -6,6 +6,10 @@ let wordData;
 wordData = "word List";
 console.log(wordData);
 
+let subTotal = 100;
+let tax = subTotal * 0.07;
+let totalWithTax =subTotal + tax;
+
 let obj = {
     key1: "value",
     key2: 4,
@@ -15,7 +19,34 @@ let obj = {
 
 }
 console.log(obj.obj2.obj2key1)
+//variables
+let var1 = "2";
+let var2 = 5;
+let result=var1 + var2;
+console.log(result);
+/* operators
 
+ */
+
+let add = 1+2;
+let sub = 2-1;
+let mult = 2*4;
+let division = 4/2;
+let mod = 5%2;
+
+let String = "String1" + "String 2";
+console.log (String);
+
+/*
+conditionals, loops
+ */
+let equals = 1 === 1;
+let greaterThan = 5>1;
+let lessThan = 2<10;
+let greaterThanEq = 5>=5;
+let lessThanEq = 4 <=9;
+let notEquals = 5!== 2;
+//
 
 let x = 1.5
 let y = 1
